@@ -56,3 +56,6 @@ resource "azurerm_role_assignment" "example" {
   role_definition_id = azurerm_role_definition.example.role_definition_resource_id
   principal_id       = data.azurerm_client_config.example.object_id
 }
+/*   tags = {
+    Hello = "World"
+  } */
